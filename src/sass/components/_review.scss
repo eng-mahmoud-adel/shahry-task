@@ -1,0 +1,78 @@
+.review {
+    margin-top: -120px;
+    margin-bottom: 250px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px #DDD, -4px -4px 10px #DDD;
+    .profile_pic {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        img {
+            border-radius: 50%;
+            margin-top: -40px;
+            object-fit: cover;
+        }
+    }
+    h5 {
+        color: rgb(0, 132, 255);
+    }
+    small {
+        font-size: 16px;
+    }
+    &_title {
+        font-size: 28px;
+    }
+    &_rating {
+        border: 2px solid #DDD;
+        width: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .thumbs_up_icon {
+            color: white;
+            padding: 10px 20px;
+            background-color: green;
+        }
+        .thumbs_down_icon {
+            color: white;
+            padding: 10px 20px;
+            background-color: red;
+        }
+    }
+    .add_comment {
+        width: 200px;
+        text-transform: uppercase;
+        padding: 10px 0;
+    }
+    form {
+        margin-top: 42px;
+        .form-group {
+            .form-label {
+                text-transform: uppercase;
+            }
+            textarea {
+                resize: none;
+            }
+        }
+    }
+    .comment_section {
+        background-color: #DDD;
+        height: 160px;
+        border-radius: 8px;
+        .comment {
+            min-height: 72px;
+        }
+        .comment_profile_pic {
+            width: 50px;
+            height: 50px;
+            margin: auto;
+            img {
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+header {
+    .header {
+        background-image: url('../../images/header.jpg');
+        background-size: cover;
+        height: 490px;
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+            padding-top: 100px;
+            padding-bottom: 30px;
+        }
+        .review_button {
+            width: 200px;
+            text-transform: uppercase;
+            padding: 10px 0;
+        }
+    }
+    
+}

@@ -1,0 +1,16 @@
+.modal {
+    .modal-body {
+        form {
+            textarea {
+                resize: none;
+            }
+        }
+    }
+    .modal-footer {
+        .review_button {
+            width: 200px;
+            text-transform: uppercase;
+            padding: 10px 0;
+        }
+    }
+}
